@@ -1,0 +1,29 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+node_modules/
+
+dist/
+build/
+.cache/
+
+# Misc
+.tmp/
